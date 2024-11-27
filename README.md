@@ -13,21 +13,31 @@ Junto al proyecto se ha añdido un entorno virtual para poder ejecutarlo.
 ### En sistemas Unix (Linux/macOS)
 
 1. Navega a la carpeta raíz de tu proyecto en la terminal.
-
-2. Para activar el entorno virtual, ejecuta:
+2. Ejecuta el siguiente comando para crear el entorno virtual:
 
     ```bash
-    source .venv/bin/activate
+    python3 -m venv venv
+    ```
+
+3. Para activar el entorno virtual, ejecuta:
+
+    ```bash
+    source venv/bin/activate
     ```
 
 ### En sistemas Windows
 
 1. Navega a la carpeta raíz de tu proyecto en la terminal.
+2. Ejecuta el siguiente comando para crear el entorno virtual:
+
+    ```bash
+    python -m venv venv
+    ```
 
 3. Para activar el entorno virtual, ejecuta:
 
     ```bash
-    ".venv\Scripts\activate"
+    venv\Scripts\activate
     ```
 
 
